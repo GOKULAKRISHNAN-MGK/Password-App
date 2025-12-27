@@ -117,4 +117,8 @@ public class PasswordService {
                         .build())
                 .toList();
     }
+
+    public String getDecryptedPassword(Long id, String masterKey) {
+        return "Password";
+    }
 }
